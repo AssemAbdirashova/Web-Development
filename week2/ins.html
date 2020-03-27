@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <title>CSS box model</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            background-color: rgb(250, 250, 250);
+        }
+        a{text-decoration: none;}
+
+        ul.hr li  {
+                font-size: 10px;
+                position: relative;
+                color: #003569;
+                 display: inline;
+               text-align:center;
+                top:900px;
+                left: 250px;
+                margin: 4;
+                padding: 5px; 
+            }
+        #image{
+            position: absolute;
+            top: 100px;
+            left: 250px;
+
+        }
+        #googlepay{
+            position: absolute;
+            top:700px;
+            left: 800px;
+        }
+        #appstore{
+            position: absolute;
+            top:700px;
+            left: 650px;
+        }
+        .myBlock{
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50px;
+            left: 650px;
+            border: 3px solid rgb(250, 250, 250);
+            font-size: 10px;
+            text-align: center;
+        }
+        .registr{
+            color: rgb(192,192,192);
+            text-align: center;
+            font-size:16px;
+        }
+        .registrsec{
+            color: rgb(192,192,192);
+            text-align: center;
+            font-size:13px;
+            text-decoration: none;
+        }
+        #itext{
+            display: block;
+            margin: 0 auto;
+
+        }
+        form{
+            width: 300px;
+            height: 500px;
+            margin: auto;
+            position: relative;
+
+
+        }
+        .forms {
+        width: 230px;
+        height: 30px;
+        margin: auto;
+        position: relative;
+        }
+
+        .forms-sec{
+            color: white;
+            width: 250px;
+        height: 50px;
+        margin: auto;
+        position: relative;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    
+    
+    <img id = "image"src="http://www.digitalmarketingceo.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-03-at-11.05.04-PM-e1536030535339.png" >
+    
+    <section class="myBlock">
+        <form action="ins.html" method="POST" >
+
+             <img id = "itext"src = "https://pngimage.net/wp-content/uploads/2018/06/instagram-text-png-9.png" width="160">
+             <h2 class = "registr">
+                 Зарегистрируйтесь, чтобы <br> смотреть фото и видео ваших  <br>друзей. 
+             </h2>
+             <p><input class= "forms-sec" type="submit" value="Войти через Facebook"></p>
+             
+            <p><input class = "forms" name="login" type = "text" placeholder="Моб.телефон или эл.адрес" ></p>
+            <p><input class = "forms" name="login" type = "text" placeholder="Имя и фамилия"></p>
+            <p><input class = "forms" name="login" type = "text" placeholder="Имя пользователя"></p>
+            <p><input class = "forms" name="pass" type="password" placeholder="Пароль"></p>
+            <p><input class = "forms-sec" type="submit" value="Вход"></p>                
+             <a class  = "registrsec" href = "https://help.instagram.com/519522125107875"> Регистрируясь, вы принимаете <br>наши <strong>Условия, Политику <br>использования данных и <br> Политику в отношении файлов<br> cookie.</strong>
+             </a>
+            </form>
+    </section>
+
+
+
+    
+    <img id = googlepay src = "file:///C:/Users/%D0%94%D0%B0%D0%BA%D0%BE%D1%82%D1%82%D0%B8/Desktop/4c70948c09f3.png" width="120">
+    <img id = appstore src = "file:///C:/Users/%D0%94%D0%B0%D0%BA%D0%BE%D1%82%D1%82%D0%B8/Desktop/bfba6d0fd6bd.png" width="120">
+    <ul class="hr">
+        <a href="#"><li>О НАС</li></a>
+        <a href="#"><li>ПОМОЩЬ</li></a>
+        <a href="#"><li>ПРЕССА</li></a>
+        <a href="#"><li>API</li></a>
+        <a href="#"><li>ВАКАНСИИ</li></a>
+        <a href="#"><li>КОНФИДЕНЦИАЛЬНОСТЬ</li></a>
+        <a href="#"><li>УСЛОВИЯ</li></a>
+        <a href="#"><li>ДИРЕКТОРИЯ</li></a>
+        <a href="#"><li>ПРОФИЛИ</li></a>
+        <a href="#"><li>ХЭШТЕГИ</li></a>
+        <a href="#"><li>ЯЗЫК</li></a>
+        
+
+        <p id="author">2020</p>
+         </ul>
+</body>
+</html>
